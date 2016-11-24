@@ -1,0 +1,37 @@
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
+.navbar-brand {
+  height: 70px;
+}
+.navbar-brand a h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#nav-list li{
+  text-align: center;
+}
+
+#menu-tiles div{
+  border: 10px solid white;
+}
+
+#menu-tiles div:nth-child(1) {
+  background-color: #d86767;
+}
+
+#menu-tiles div:nth-child(2) {
+  background-color: #9089b3;
+}
+
+#menu-tiles div:nth-child(3) {
+  background-color: #95ceae;
+}
+
+a.top-link {
+  text-decoration: underline;
+  font-size: 20px;
+  color: #2d0404;
+  float: right;
+}
